@@ -1,0 +1,131 @@
+############################
+# OS / Editor junk
+############################
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+*.log
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.code-workspace
+
+############################
+# Python
+############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.env
+.env.*
+venv/
+.venv/
+pip-wheel-metadata/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+############################
+# Jupyter / Data
+############################
+.ipynb_checkpoints/
+*.csv
+*.tsv
+
+# BUT allow example datasets
+!examples/*.csv
+
+############################
+# Security / Secrets
+############################
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+*.keystore
+
+secrets/
+keys/
+credentials/
+auth.json
+config.local.yaml
+config.local.yml
+
+############################
+# Logs / Scans / Reports
+############################
+logs/
+*.pcap
+*.cap
+
+openvas/
+nessus/
+scans/
+reports/raw/
+
+############################
+# Docker
+############################
+.docker/
+docker-compose.override.yml
+
+############################
+# Ansible
+############################
+*.retry
+ansible.log
+inventory.ini
+inventory.yaml
+
+############################
+# Terraform / Cloud
+############################
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+############################
+# Virtualization
+############################
+*.vdi
+*.vmdk
+*.qcow2
+*.iso
+
+############################
+# Web security tools
+############################
+burp/
+zap/
+sessions/
+
+############################
+# Allow documentation
+############################
+!README.md
+!learning-log.md
+!docs/
+!reports/final/
+!screenshots/
+
+############################
+# Screenshots
+############################
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+
+############################
+# But keep README in folders
+############################
+!screenshots/**/README.md

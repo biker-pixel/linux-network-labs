@@ -28,6 +28,7 @@ Two virtual machines are used throughout the labs
 
 ## Repository Structure
 
+```
 .
 ├── .gitignore
 ├── LICENSE
@@ -41,7 +42,7 @@ Two virtual machines are used throughout the labs
 ├── journald/
 ├── networking/
 └── scripts/
-
+```
 *(structure will evolve during training)*
 
 ---
